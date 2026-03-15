@@ -26,6 +26,9 @@ FILM-LISTEM, modern JavaScript kütüphaneleri ile geliştirilmiş, bileşen tab
 - **JavaScript**
 - **LocalStorage**
 
+## GitHub Repo Linki: 
+https://github.com/fatihhyasa/film-listem
+
 ## Proje bağlantı linki:
 https://film-listem.netlify.app/
 
