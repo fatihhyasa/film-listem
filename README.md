@@ -30,8 +30,8 @@ FILM-LISTEM, modern JavaScript kütüphaneleri ile geliştirilmiş, bileşen tab
 https://film-listem.netlify.app/
 
 ## Ekran Görüntüleri
-[home]
-
+[home](screenshots/edit.png)
+[filtered](
 ## Proje Klasör Yapısı
 
 ```bash
