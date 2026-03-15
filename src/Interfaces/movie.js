@@ -1,0 +1,32 @@
+export const initialMovies = [
+  {
+    id: crypto.randomUUID(),
+    title: 'Inception',
+    director: 'Christopher Nolan',
+    category: 'Bilim Kurgu',
+    year: '2010',
+    rating: '9',
+    watched: true,
+    notes: 'Tekrar izlenecek filmler arasında.',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'The Dark Knight',
+    director: 'Christopher Nolan',
+    category: 'Aksiyon',
+    year: '2008',
+    rating: '10',
+    watched: true,
+    notes: 'Klasikler listesinde.',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Interstellar',
+    director: 'Christopher Nolan',
+    category: 'Bilim Kurgu',
+    year: '2014',
+    rating: '10',
+    watched: false,
+    notes: 'Bu hafta sonu izlenecek.',
+  },
+]
