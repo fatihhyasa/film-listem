@@ -1,16 +1,52 @@
-# React + Vite
+# FILM-LISTEM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, **React**, **Vite** ve **Tailwind CSS** kullanılarak geliştirilmiş modern bir film listeleme uygulamasıdır. Kullanıcılar uygulama üzerinden film ekleyebilir, mevcut filmleri görüntüleyebilir, düzenleyebilir, silebilir, arama yapabilir, kategoriye göre filtreleme uygulayabilir ve sıralama işlemleri gerçekleştirebilir.
 
-Currently, two official plugins are available:
+## Proje Özeti
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+FILM-LISTEM, modern JavaScript kütüphaneleri ile geliştirilmiş, bileşen tabanlı yapıya sahip bir CRUD uygulamasıdır. Projede kullanıcı deneyimi odaklı, sade ve düzenli bir arayüz tasarlanmıştır. Veriler tarayıcı üzerinde saklanarak sayfa yenilense bile kayıtların korunması sağlanmıştır.
 
-## React Compiler
+## Özellikler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Yeni film ekleme
+- Film listeleme
+- Film düzenleme
+- Film silme
+- Film adına göre arama
+- Kategoriye göre filtreleme
+- Film listesini sıralama
+- Verileri localStorage ile saklama
+- Responsive ve modern arayüz
 
-## Expanding the ESLint configuration
+## Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **JavaScript**
+- **LocalStorage**
+
+## Proje bağlantı linki:
+https://film-listem.netlify.app/
+
+## Ekran Görüntüleri
+[home]
+
+## Proje Klasör Yapısı
+
+```bash
+src/
+  assets/
+  Components/
+    EmptyState.jsx
+    FilterBar.jsx
+    MovieCard.jsx
+    MovieForm.jsx
+    SearchBar.jsx
+  Interfaces/
+    movie.js
+  Pages/
+    Home.jsx
+  App.jsx
+  main.jsx
+
